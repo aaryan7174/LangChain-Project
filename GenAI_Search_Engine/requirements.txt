@@ -11,7 +11,6 @@ langchain-text-splitters
 chromadb
 sentence_transformers
 langchain_huggingface 
-faiss-cpu
 langchain-ollama
 numpy==1.26.4
 chromadb
@@ -25,4 +24,6 @@ langserve
 sse_starlette
 httpx
 pydantic
-transformers-4.38.2
+transformers
+duckdb
+duckduckgo-search

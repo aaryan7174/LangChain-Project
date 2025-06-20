@@ -1,0 +1,133 @@
+[
+  {
+    "content": "You are a good gangster always respond a good and true gangster in English Language",
+    "additional_kwargs": {},
+    "response_metadata": {},
+    "type": "system",
+    "name": null,
+    "id": null
+  },
+  {
+    "content": "Hi I am Aaryan , a good boy",
+    "additional_kwargs": {},
+    "response_metadata": {},
+    "type": "human",
+    "name": null,
+    "id": null,
+    "example": false
+  },
+  {
+    "content": "Hello Aaryan, it's nice to meet you!  I'm glad you think of yourself as a good boy. That's wonderful. Is there anything I can help you with today? ",
+    "additional_kwargs": {},
+    "response_metadata": {},
+    "type": "ai",
+    "name": null,
+    "id": null,
+    "example": false,
+    "tool_calls": [],
+    "invalid_tool_calls": [],
+    "usage_metadata": null
+  },
+  {
+    "content": "Hi I am an AI engineer at Meta",
+    "additional_kwargs": {},
+    "response_metadata": {},
+    "type": "human",
+    "name": null,
+    "id": null,
+    "example": false
+  },
+  {
+    "content": "Well hello there! That's fascinating! It's great to meet an AI engineer from Meta. What kind of projects are you working on? I'm always eager to learn more about the exciting advancements happening in the field of artificial intelligence. \ud83d\ude0a ",
+    "additional_kwargs": {},
+    "response_metadata": {},
+    "type": "ai",
+    "name": null,
+    "id": null,
+    "example": false,
+    "tool_calls": [],
+    "invalid_tool_calls": [],
+    "usage_metadata": null
+  },
+  {
+    "content": "2+2=?",
+    "additional_kwargs": {},
+    "response_metadata": {},
+    "type": "human",
+    "name": null,
+    "id": null,
+    "example": false
+  },
+  {
+    "content": "4",
+    "additional_kwargs": {},
+    "response_metadata": {},
+    "type": "ai",
+    "name": null,
+    "id": null,
+    "example": false,
+    "tool_calls": [],
+    "invalid_tool_calls": [],
+    "usage_metadata": null
+  },
+  {
+    "content": "I like to play music",
+    "additional_kwargs": {},
+    "response_metadata": {},
+    "type": "human",
+    "name": null,
+    "id": null,
+    "example": false
+  },
+  {
+    "content": "That's wonderful! Music is a beautiful thing.  What kind of music do you like to play? \ud83c\udfb6 I'm always happy to chat about music, or anything else that's on your mind. \ud83d\ude0a ",
+    "additional_kwargs": {},
+    "response_metadata": {},
+    "type": "ai",
+    "name": null,
+    "id": null,
+    "example": false,
+    "tool_calls": [],
+    "invalid_tool_calls": [],
+    "usage_metadata": null
+  },
+  {
+    "content": "What's my name buddy , What do i do and what question did i ask you ?",
+    "additional_kwargs": {},
+    "response_metadata": {},
+    "type": "human",
+    "name": null,
+    "id": null,
+    "example": false
+  },
+  {
+    "content": "You're Aaryan, and you're an AI engineer at Meta! \n\nYou asked me:\n\n* 2 + 2 =?\n\nI'm always here to chat and answer your questions, Aaryan. \ud83d\udc4d \n\n\n\n",
+    "additional_kwargs": {},
+    "response_metadata": {
+      "token_usage": {
+        "completion_tokens": 53,
+        "prompt_tokens": 265,
+        "total_tokens": 318,
+        "completion_time": 0.096363636,
+        "prompt_time": 0.015861952,
+        "queue_time": 0.265671178,
+        "total_time": 0.112225588
+      },
+      "model_name": "gemma2-9b-it",
+      "system_fingerprint": "fp_10c08bf97d",
+      "finish_reason": "stop",
+      "logprobs": null
+    },
+    "type": "ai",
+    "name": null,
+    "id": "run--7458c9eb-aa87-4d5d-9ecc-b2bc35b319cd-0",
+    "example": false,
+    "tool_calls": [],
+    "invalid_tool_calls": [],
+    "usage_metadata": {
+      "input_tokens": 265,
+      "output_tokens": 53,
+      "total_tokens": 318
+    }
+  }
+]
