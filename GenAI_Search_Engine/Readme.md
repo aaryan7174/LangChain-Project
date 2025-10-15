@@ -37,6 +37,7 @@ Instead of keyword-based retrieval, it delivers **contextual, human-like answers
 ---
 
 GenAI_Search_Engine/
+
 │
 ├── data/ → Input datasets or document files
 ├── notebooks/ → Experiments and prototype notebooks
