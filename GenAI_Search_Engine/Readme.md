@@ -49,21 +49,6 @@ GenAI_Search_Engine/
 └── README.md → Documentation
 
 
----
-
-## ⚙️ Setup & Installation  
-```bash
-# 1. Clone the repository
-git clone https://github.com/aaryan7174/LangChain-Project.git
-cd LangChain-Project/GenAI_Search_Engine
-
-# 2. Create a virtual environment
-python -m venv venv
-source venv/bin/activate      # On Windows: venv\Scripts\activate
-
-# 3. Install dependencies
-pip install -r requirements.txt
-
 
 ---
 
@@ -80,21 +65,17 @@ source venv/bin/activate      # On Windows: venv\Scripts\activate
 # 3. Install dependencies
 pip install -r requirements.txt
 
-
+# 4. Run the app
 python src/main.py
+
 Then open your Streamlit or Flask interface to start chatting with your intelligent search engine.
 
 ## 🔮 Future Improvements
-
-Integration with web and API-based data sources
-
-Multimodal retrieval (text + images)
-
-LangGraph integration for complex reasoning flows
-
-Real-time fine-tuning and evaluation dashboard
-
+- Integration with web and API-based data sources
+- Multimodal retrieval (text + images)
+- LangGraph integration for complex reasoning flows
+- Real-time fine-tuning and evaluation dashboard
 
 ## 👨‍💻 Author
-
 Aaryan Rana
+
