@@ -38,6 +38,16 @@ The system dynamically retrieves information from an online source, splits it in
 | **FastAPI / Streamlit (optional)** | For web or API deployment |
 
 ---
+## Project Structure
+```text
+LangChain-Project/
+└── 4-Conversation_QnA_Chatbot/
+    ├── Conversation_QnA_Chatbot.ipynb
+    ├── requirements.txt
+    ├── .env
+    ├── README.md
+    └── venv/  (optional)
+```
 
 ## 🧩 Project Workflow
 
