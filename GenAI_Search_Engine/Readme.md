@@ -53,7 +53,7 @@ GenAI_Search_Engine/
 ---
 
 ## ⚙️ Setup & Installation  
-```bash
+
 # 1. Clone the repository
 git clone https://github.com/aaryan7174/LangChain-Project.git
 cd LangChain-Project/GenAI_Search_Engine
