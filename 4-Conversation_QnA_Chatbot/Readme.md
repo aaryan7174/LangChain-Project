@@ -41,16 +41,19 @@ The system dynamically retrieves information from an online source, splits it in
 
 ## 🧩 Project Workflow
 
-```mermaid
-flowchart TD
-    A[Load .env Variables] --> B[Initialize Groq LLM]
-    B --> C[Load Web Documents using WebBaseLoader]
-    C --> D[Split Documents with RecursiveCharacterTextSplitter]
-    D --> E[Generate Embeddings using HuggingFace Model]
-    E --> F[Store Embeddings in Chroma Vector DB]
-    F --> G[Retriever Fetches Context]
-    G --> H[LLM Generates Context-Aware Answers]
-    H --> I[Maintains Chat History for Follow-ups]
+The workflow below shows the full RAG pipeline for the chatbot:
+
+1. Load environment variables from `.env`
+2. Initialize **Groq LLM**
+3. Load web documents using **WebBaseLoader**
+4. Split documents with **RecursiveCharacterTextSplitter**
+5. Generate embeddings using **Hugging Face Embeddings**
+6. Store embeddings in **Chroma Vector DB**
+7. Retrieve context using the retriever
+8. Generate context-aware answers with **LLM**
+9. Maintain chat history for multi-turn conversation
+
+---
 
 🧠 Core Features
 
@@ -59,6 +62,8 @@ flowchart TD
 ✅ Dynamic Web Data Loading – Fetches live content using WebBaseLoader
 ✅ Multi-Turn Dialogue Support – Maintains user sessions for ongoing chats
 ✅ Lightweight & Fast – Optimized with Groq LLM for low latency inference
+
+---
 
 🧰 Installation
 
@@ -86,6 +91,8 @@ Create a .env file in the project root with the following keys:
 GROQ_API_KEY=your_groq_api_key
 HF_TOKEN=your_huggingface_token
 
+---
+
 🧠 Usage
 
 Run the notebook or script:
@@ -103,6 +110,8 @@ Bot: An AI agent is a system that uses a Large Language Model (LLM) as its core 
 User: Tell me more about it.
 Bot: It’s powered by an LLM acting as the “brain,” supported by memory and planning modules to execute complex tasks autonomously.
 
+---
+
 📂 Project Structure
 LangChain-Project/
 │
@@ -113,7 +122,9 @@ LangChain-Project/
 │   ├── README.md
 │   └── /venv (optional)
 
-📖 References
+---
+
+# 🧠 References
 
 LangChain Documentation
 
@@ -123,7 +134,10 @@ Hugging Face Sentence Transformers
 
 Lilian Weng Blog Post
 
-👨‍💻 Author
+
+---
+
+# Author
 
 Aaryan Rana
 AI Engineer | Data Scientist | NLP Enthusiast
