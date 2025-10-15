@@ -1,4 +1,11 @@
 # 🧠 GenAI Search Engine  
+
+[![Python](https://img.shields.io/badge/Python-3.10-blue)](https://www.python.org/)  
+[![LangChain](https://img.shields.io/badge/LangChain-v0.1.0-orange)](https://python.langchain.com/)  
+[![Groq](https://img.shields.io/badge/Groq-LLM-green)](https://www.groq.com/)  
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-Embeddings-purple)](https://huggingface.co/)  
+[![License](https://img.shields.io/badge/License-MIT-lightgrey)](LICENSE)
+
 **An AI-powered semantic search system built using LangChain and Large Language Models (LLMs).**
 
 ---
