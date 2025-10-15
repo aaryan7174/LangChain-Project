@@ -50,7 +50,7 @@ GenAI_Search_Engine/
 │   └── main.py       → Entry point script
 ├── requirements.txt → Dependencies
 └── README.md        → Documentation
-
+```
 ## ⚙️ Setup & Installation  
 
 ### 1. Clone the repository
