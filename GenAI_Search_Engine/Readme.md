@@ -36,18 +36,18 @@ Instead of keyword-based retrieval, it delivers **contextual, human-like answers
 
 ---
 
-GenAI_Search_Engine/
-
+# GenAI_Search_Engine/
 │
-├── data/ → Input datasets or document files
-├── notebooks/ → Experiments and prototype notebooks
-├── src/ → Source code
-│ ├── chains/ → LangChain pipeline configurations
-│ ├── retrievers/ → Custom retriever logic
-│ ├── utils/ → Helper modules
-│ └── main.py → Entry point script
+├── data/          → Input datasets or document files
+├── notebooks/     → Experiments and prototype notebooks
+├── src/           → Source code
+│   ├── chains/     → LangChain pipeline configurations
+│   ├── retrievers/ → Custom retriever logic
+│   ├── utils/      → Helper modules
+│   └── main.py     → Entry point script
 ├── requirements.txt → Dependencies
-└── README.md → Documentation
+└── README.md        → Documentation
+
 
 
 
