@@ -110,17 +110,6 @@ Bot: An AI agent is a system that uses a Large Language Model (LLM) as its core 
 User: Tell me more about it.
 Bot: It’s powered by an LLM acting as the “brain,” supported by memory and planning modules to execute complex tasks autonomously.
 
----
-
-## 📂 Project Structure
-
-LangChain-Project/
-└── 4-Conversation_QnA_Chatbot/
-├── Conversation_QnA_Chatbot.ipynb
-├── requirements.txt
-├── .env
-├── README.md
-└── venv/ (optional)
 
 ---
 
