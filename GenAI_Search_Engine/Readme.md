@@ -34,39 +34,37 @@ Instead of keyword-based retrieval, it delivers **contextual, human-like answers
 | **Backend** | Python |
 | **Interface (Optional)** | Streamlit / Flask |
 
+---
 
+## 📂 Project Structure
 
-# GenAI_Search_Engine/
+```text
+GenAI_Search_Engine/
 │
-├── data/          → Input datasets or document files
-├── notebooks/     → Experiments and prototype notebooks
-├── src/           → Source code
-│   ├── chains/     → LangChain pipeline configurations
-│   ├── retrievers/ → Custom retriever logic
-│   ├── utils/      → Helper modules
-│   └── main.py     → Entry point script
+├── data/            → Input datasets or document files
+├── notebooks/       → Experiments and prototype notebooks
+├── src/             → Source code
+│   ├── chains/       → LangChain pipeline configurations
+│   ├── retrievers/   → Custom retriever logic
+│   ├── utils/        → Helper modules
+│   └── main.py       → Entry point script
 ├── requirements.txt → Dependencies
 └── README.md        → Documentation
 
-
-
-
-
-
 ## ⚙️ Setup & Installation  
 
-# 1. Clone the repository
+### 1. Clone the repository
 git clone https://github.com/aaryan7174/LangChain-Project.git
 cd LangChain-Project/GenAI_Search_Engine
 
-# 2. Create a virtual environment
+### 2. Create a virtual environment
 python -m venv venv
 source venv/bin/activate      # On Windows: venv\Scripts\activate
 
-# 3. Install dependencies
+### 3. Install dependencies
 pip install -r requirements.txt
 
-# 4. Run the app
+### 4. Run the app
 python src/main.py
 
 Then open your Streamlit or Flask interface to start chatting with your intelligent search engine.
