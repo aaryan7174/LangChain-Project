@@ -45,6 +45,7 @@ flowchart TD
     G --> H[LLM Generates Context-Aware Answers]
     H --> I[Maintains Chat History for Follow-ups]
 
+
 🧠 Core Features
 
 ✅ RAG Implementation – Combines retrieval with generation for precise, fact-based answers
