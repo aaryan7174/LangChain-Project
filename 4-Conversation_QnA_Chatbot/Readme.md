@@ -115,13 +115,12 @@ Bot: It’s powered by an LLM acting as the “brain,” supported by memory and
 ## 📂 Project Structure
 
 LangChain-Project/
-│
 └── 4-Conversation_QnA_Chatbot/
 ├── Conversation_QnA_Chatbot.ipynb
 ├── requirements.txt
 ├── .env
 ├── README.md
-└── /venv (optional)
+└── venv/ (optional)
 
 ---
 
@@ -141,4 +140,5 @@ Lilian Weng Blog Post
 # Author
 
 Aaryan Rana
+
 AI Engineer | Data Scientist | NLP Enthusiast
