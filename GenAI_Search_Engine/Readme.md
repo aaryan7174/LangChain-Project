@@ -34,7 +34,7 @@ Instead of keyword-based retrieval, it delivers **contextual, human-like answers
 | **Backend** | Python |
 | **Interface (Optional)** | Streamlit / Flask |
 
----
+
 
 # GenAI_Search_Engine/
 │
@@ -51,7 +51,7 @@ Instead of keyword-based retrieval, it delivers **contextual, human-like answers
 
 
 
----
+
 
 ## ⚙️ Setup & Installation  
 
