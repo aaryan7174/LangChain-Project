@@ -77,7 +77,7 @@ pip install -r requirements.txt
 python src/main.py
 Then open your Streamlit or Flask interface to start chatting with your intelligent search engine.
 
-🔮 Future Improvements
+## 🔮 Future Improvements
 
 Integration with web and API-based data sources
 
@@ -88,6 +88,6 @@ LangGraph integration for complex reasoning flows
 Real-time fine-tuning and evaluation dashboard
 
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Aaryan Rana
