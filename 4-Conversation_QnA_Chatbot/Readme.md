@@ -55,7 +55,7 @@ The workflow below shows the full RAG pipeline for the chatbot:
 
 ---
 
-🧠 Core Features
+## 🧠 Core Features
 
 ✅ RAG Implementation – Combines retrieval with generation for precise, fact-based answers
 ✅ Chat History Awareness – Understands conversation flow and context continuity
@@ -65,7 +65,7 @@ The workflow below shows the full RAG pipeline for the chatbot:
 
 ---
 
-🧰 Installation
+## 🧰 Installation
 
 Clone the repository and navigate to the folder:
 
@@ -80,7 +80,7 @@ source venv/bin/activate  # Mac/Linux
 venv\Scripts\activate     # Windows
 
 
-Install dependencies:
+## Install dependencies:
 
 pip install -r requirements.txt
 
@@ -93,7 +93,7 @@ HF_TOKEN=your_huggingface_token
 
 ---
 
-🧠 Usage
+## 🧠 Usage
 
 Run the notebook or script:
 
@@ -112,16 +112,16 @@ Bot: It’s powered by an LLM acting as the “brain,” supported by memory and
 
 ---
 
-📂 Project Structure
+## 📂 Project Structure
 
 LangChain-Project/
 │
-├── 4-Conversation_QnA_Chatbot/
-│   ├── Conversation_QnA_Chatbot.ipynb
-│   ├── requirements.txt
-│   ├── .env
-│   ├── README.md
-│   └── /venv (optional)
+└── 4-Conversation_QnA_Chatbot/
+├── Conversation_QnA_Chatbot.ipynb
+├── requirements.txt
+├── .env
+├── README.md
+└── /venv (optional)
 
 ---
 
